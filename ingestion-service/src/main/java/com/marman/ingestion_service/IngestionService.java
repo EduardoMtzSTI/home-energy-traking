@@ -1,6 +1,6 @@
 package com.marman.ingestion_service;
 
-import com.marman.ingestion_service.kafka.event.EnergyUsageEvent;
+import com.marman.kafka.event.EnergyUsageEvent;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
