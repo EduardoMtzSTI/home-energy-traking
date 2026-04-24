@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class ExecutionTimeAspect {
 
-    @Pointcut("execution(* com.marman.user_service.UserController.*(..))")
+    @Pointcut("execution(* com.marman.user_service.service.UserController.*(..))")
     public void controllerMethods() {}
 
     @Around("controllerMethods()")

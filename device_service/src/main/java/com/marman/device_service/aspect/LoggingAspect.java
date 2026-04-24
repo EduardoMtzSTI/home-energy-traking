@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class LoggingAspect {
 
-    @Pointcut("execution(* com.marman.device_service.DeviceService.*(..))")
+    @Pointcut("execution(* com.marman.device_service.service.DeviceService.*(..))")
     public void serviceMethods() {}
 
     @Before("serviceMethods()")

@@ -1,7 +1,9 @@
 package com.marman.device_service;
 
+import com.marman.device_service.service.Device;
+import com.marman.device_service.service.DeviceRepository;
+import com.marman.device_service.service.DeviceType;
 import lombok.extern.slf4j.Slf4j;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,6 +14,7 @@ class DeviceServiceApplicationTests {
 
 	public static final int NUMBER_OF_DEVICES = 200;
 	public static final int USERS = 10;
+
 	@Autowired
 	private DeviceRepository deviceRepository;
 

@@ -1,4 +1,4 @@
-package com.marman.device_service;
+package com.marman.device_service.service;
 
 import org.springframework.stereotype.Component;
 

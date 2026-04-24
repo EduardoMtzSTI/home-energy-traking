@@ -1,7 +1,6 @@
-package com.marman.device_service;
+package com.marman.device_service.service;
 
 import com.marman.device_service.handler.DeviceNotFoudException;
-import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

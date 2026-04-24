@@ -1,5 +1,7 @@
 package com.marman.user_service;
 
+import com.marman.user_service.service.User;
+import com.marman.user_service.service.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;

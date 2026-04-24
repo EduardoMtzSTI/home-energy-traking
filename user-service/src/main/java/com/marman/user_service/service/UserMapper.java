@@ -1,4 +1,4 @@
-package com.marman.user_service;
+package com.marman.user_service.service;
 
 import org.springframework.stereotype.Component;
 

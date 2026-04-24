@@ -1,4 +1,4 @@
-package com.marman.device_service;
+package com.marman.device_service.service;
 
 public enum DeviceType {
     SPEAKER,

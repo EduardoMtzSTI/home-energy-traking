@@ -1,18 +1,28 @@
-package com.marman.device_service;
+package com.marman.device_service.service;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Builder
-@Data
+@Entity
+@Table(name = "devices")
 @AllArgsConstructor
 @NoArgsConstructor
-public class DeviceRequest {
+@Builder
+@Data
+public class Device {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String name;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "type")
     private DeviceType type;
+
     private String location;
     private Long userId;
 }
